@@ -1,0 +1,3 @@
+1. With open python para manipular archivos y comparar contra los streams estudiados
+2. Desarrollar el ejemplo de hoy con with open
+3. Consultar como se manipulan archivos CSV. dos ejemplos lectura y escritura
