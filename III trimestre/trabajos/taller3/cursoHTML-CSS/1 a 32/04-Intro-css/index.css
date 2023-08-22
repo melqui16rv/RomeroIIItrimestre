@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+/*colores y fuentes*/
+p {
+    color: blue;
+    font-size: 20px;
+    color: green; /*se sobre escribe*/
+}
+p#primera{ /* solo se selecciona los que sean parrafos y tengan el mismo id*/
+    color: pink;
+    font-size: 20px;
+}
+#segunda {
+    color: brown;
+    font-size: 10px;
+}
+.encabezado{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+*.warning { /* selecciona todas las etiquetas ademas poder poner una condicion*/
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, h1, #segunda {
+    text-decoration: underline;
+}
