@@ -1,0 +1,24 @@
+.colores {
+    color: orange;
+}
+
+.color-hexadecimal {
+    color: #316cbd;
+}
+.color-rgb {
+    color: rgba(70, 174, 25, 0.92);
+}
+.color-rgba {
+    color: rgba(10, 10, 10, 0.5);
+}
+
+/*fonodos*/
+.fondo {
+    /*background-color: #80bd317f;*/
+    background-image: url("https://www.xtrafondos.com/wallpapers/lineas-entrelazandose-abstracto-10989.jpg");
+    background-position: bottom bottom;
+}
+.fondo-interno {
+    background-image: url("imagenes/fondo.jpg");
+    background-position: left;
+}
