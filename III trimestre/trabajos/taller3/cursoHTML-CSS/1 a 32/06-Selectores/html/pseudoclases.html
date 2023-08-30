@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo-Clases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+        .hover:hover { /* se activa en cuanto el raton pasa por encima*/
+            background-color: burlywood;
+        }
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child {
+            color: white;
+        }
+        a:link {
+            color: orangered;
+        }
+        a:visited {
+            color: lawngreen;
+        }
+        a:hover {
+            color: pink;
+        }
+        a:active {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>“No encontró la verdad, por cierto, el que lanzó para ella la palabra" voluntad de
+            existir": esta voluntad no se da.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.edu.xunta.gal/centros/iesnumero1ribeira/?q=system/files/u25/textos_0.pdf" target="_blank">Nietzsche</a>
+        <a href="https://www.youtube.com/" target="_blank">youtube</a>
+        <a href="https://www.google" target="_blank">google</a>
+    </div>
+</body>
+</html>
