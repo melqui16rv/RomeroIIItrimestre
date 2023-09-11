@@ -1,0 +1,86 @@
+.button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #2980b9;
+}
+
+
+.seccion {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion #experiencia:nth-child(odd) {
+    background-color: #ffffff;
+    height: 800px;
+}
+
+.spanP {
+    width: 10vw;
+    display: flex;
+    justify-content: start;
+    align-self: baseline;
+    top: 30%;
+  }
+
+  .barra {
+    width: 140px; /* Ancho de la barra de navegación */
+    height: 100%; /* Altura de la barra de navegación, ajusta según tus necesidades */
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(10, 10, 10, 0.8);
+    position: fixed;
+    top: 0;
+    left: -135px; /* Deja un pequeño pedazo visible en el lateral izquierdo */
+    transition: left 0.3s ease-in-out; /* Agrega una transición suave */
+    z-index: 1; /* Coloca la barra encima del contenido */
+}
+
+.spanP:hover .barra {
+    left: 0px; /* Desplaza la barra fuera de la pantalla, excepto un pequeño pedazo visible */
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    left: 10%;
+    top: 40%;
+    cursor: pointer;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover {
+    background-color: rgb(8, 8, 8); /* Cambia el color de fondo al pasar el ratón sobre los botones */
+}
+
+
+
+@media (max-width: 460px){
+    .spanP {
+        position:absolute;
+    }
+}
+
+@media (max-width: 1200px){
+    .contenedor {
+        min-width: 220px;
+    }
+}

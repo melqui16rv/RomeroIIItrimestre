@@ -1,0 +1,61 @@
+.texto1, .texto2{
+    background-color: rgba(1, 22, 39, 0.466);
+    backdrop-filter: blur(15px);
+    border-radius: 2rem;
+    width: 40%;
+
+    align-self: self-start;
+    margin-left: 30px;
+    position: relative;
+    transition: 0.5s;
+    top: -100px;
+}
+
+.texto1 h1, .texto2 h1{
+    color: rgb(251, 85, 7);
+    text-shadow:3px 6px 4px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.texto2 h3 {
+    color: rgb(131, 56, 235);
+    text-shadow:3px 6px 4px rgb(0, 0, 0);
+    justify-content: end;
+    align-self: self-start;
+    margin-left: 60px;
+    margin-right: 20px;
+    position: relative;
+    text-align: start;
+    overflow: hidden ;
+}
+.texto1 p, .texto2 p {
+    justify-content: end;
+    align-self: self-start;
+    margin-left: 60px;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: start;
+    color: rgb(58, 134, 254);
+    overflow: hidden ;
+}
+
+
+
+
+.texto1:hover {
+    padding: 5px;
+
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: url('/vid/video.mp4') center center no-repeat;
+    background-size: cover;
+    animation: play 15s linear infinite;
+}

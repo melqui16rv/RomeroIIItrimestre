@@ -1,0 +1,163 @@
+
+/* sacado de https://ovdivi.com/10-botones-creativos-con-increibles-efectos-hover-para-tus-sitios-web-creados-con-divi/ */
+.button1 {
+    background: #000000; 
+    color: rgb(224, 102, 102); 
+    border: 2px solid rgb(224, 102, 102);
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button1:hover {
+    color: #fff;
+  }
+  .button1::after {
+    content: "";
+    background: rgb(224, 102, 102);
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button1:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+.button2 {
+    background: #000000; 
+    color: rgb(142, 124, 195); 
+    border: 2px solid rgb(142, 124, 195);
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button2:hover {
+    color: #fff;
+  }
+  .button2::after {
+    content: "";
+    background: rgb(142, 124, 195);
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button2:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+.button3 {
+    background: #000000; 
+    color: rgb(43, 120, 228); 
+    border: 2px solid rgb(43, 120, 228);
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button3:hover {
+    color: #fff;
+  }
+  .button3::after {
+    content: "";
+    background: rgb(43, 120, 228);
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button3:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+.button4 {
+    background: #000000; 
+    color: rgb(255, 0, 92); 
+    border: 2px solid rgb(255, 0, 92);
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button4:hover {
+    color: #fff;
+  }
+  .button4::after {
+    content: "";
+    background: rgb(255, 0, 92);
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button4:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+.button5 {
+    background: #000000; 
+    color: rgb(95, 43, 94); 
+    border: 2px solid rgb(95, 43, 94);
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button5:hover {
+    color: #fff;
+  }
+  .button5::after {
+    content: "";
+    background: rgb(95, 43, 94);
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button5:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
