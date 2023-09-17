@@ -1,9 +1,8 @@
 .postulaciones {
     overflow-y: scroll;
     grid-row: 2 / 8;
-    grid-column: 2 / 7;
-    max-height: calc(100vh - 150px); /* Altura máxima - altura del encabezado y el pie de página */
-    width: 100%;
+    grid-column: 2 / 5;
+    max-height: 100%; /* Altura máxima - altura del encabezado y el pie de página */
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -21,46 +20,83 @@
 }
 
 
-
-
-@media screen and (max-width: 33000px) {
+@media screen and (max-width: 6200px) {
     .post {
-        width: 16%;
+        width:calc(300px + 10px);
+    }
+    .postulaciones{
+        grid-column: 2 / 22;
     }
 }
 
-@media screen and (max-width: 2200px) {
+@media screen and (max-width: 5200px) {
     .post {
-        width: calc(30% - 100px);
+        width:calc(10vh + 3px);
+    }
+    .postulaciones{
+        grid-column: 2 / 21;
+    }
+}
+@media screen and (max-width: 4100px) {
+    .post {
+        width:250px;
+    }
+        .postulaciones{
+        grid-column: 2 / 15;
+    }
+}
+@media screen and (max-width:2700px) {
+    .post {
+        width:250px;
+    }
+        .postulaciones{
+        grid-column: 2 / 11;
+    }
+}
+
+
+@media screen and (max-width: 2000px) {
+    .post {
+        width: calc(22%);
+    }
+    .postulaciones{
+        grid-column: 2 /9;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .post {
-        width: calc(10% + 100px);
+        width: calc(30%);
+    }
+        .postulaciones{
+        grid-column: 2 / 8;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .post {
-        width: calc(40% - 10px);
+        width: calc(45%);
+    }
+    .postulaciones{
+        grid-column: 2 / 6;
     }
 }
 @media screen and (max-width: 1200px) {
     .post {
-        width: calc(40% - 10px);
+        width: calc(100vw);
+    }
+    .postulaciones{
+        grid-column: 2 / 5;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:900px) {
     .post {
-        width: calc(80% - 10px);
+        width: calc(100%);
+    }
+    .postulaciones{
+        grid-column: 2 / 3;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .post {
-        width: 100%;
-    }
-}
 
