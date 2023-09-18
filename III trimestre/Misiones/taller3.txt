@@ -1,8 +1,0 @@
-Taller 3: Desarrollar un curso de HTML5 y CSS3. Se sugiere el curso gratuito de la plataforma openbootcamp: 
-https://www.youtube.com/watch?v=Y5lfGZXi_Eo&list=PLkVpKYNT_U9derDLVJ2I-moKE-jGIBmDn
-De otra forma, el aprendiz está en libertad de escoger el curso que prefiera siempre que contenga los temas planteados en el curso sugerido. 
-Fechas tentativas de entrega: 
-Hasta video N°30:  agosto 23 de 2023 
-Hasta video N°72:  septiembre 1 de 2023
-Formato: Repositorio Github con todo el código que el aprendiz genere en el desarrollo del curso, inclusive el protafolio del desarrollador.
-Medio: Territorium, carpeta comprimida con todo el proyecto
