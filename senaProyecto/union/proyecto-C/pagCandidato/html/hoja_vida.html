@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hoja de vida</title>
-    <link rel="stylesheet" href="../css/perfil.css">
-    <link rel="stylesheet" href="../css/encabezado/enca.css">
-    <link rel="stylesheet" href="../css/hola.css">
-    <link rel="stylesheet" href="../css/postulaciones.css">
+    <link rel="stylesheet" href="../css/hoja_vida/pull.css">
 </head>
 <body>
     <div class="contenedor">
@@ -53,7 +50,50 @@
 
             </div>
         </aside>
+
+    <div class="container">
+        <div class="formulario">
+
+            <h2>Cargar Hoja de Vida</h2>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <div class="form-group">
+
+                    <label for="cv">Selecciona tu Hoja de Vida:</label>
+
+                    <input type="file" name="cv" id="cv" accept=".pdf, .doc, .docx">
+
+                    <label class="file-input-label" for="cv">Seleccionar Archivo</label>
+                    <div class="file-name"></div>
+                </div>
+
+                <button class="file-name1" type="submit">Cargar</button>
+                <button class="file-name1" type="button" id="view-cv">Ver Hoja de Vida</button>
+            </form>
+
+        </div>
     </div>
-    
+
+    <script>
+        const fileInput = document.getElementById('cv');
+        const fileNameDisplay = document.querySelector('.file-name');
+        const viewButton = document.getElementById('view-cv');
+
+        fileInput.addEventListener('change', () => {
+            const fileName = fileInput.files[0]?.name;
+            fileNameDisplay.textContent = fileName || '';
+        });
+
+        viewButton.addEventListener('click', () => {
+            const cvFile = fileInput.files[0];
+            if (cvFile) {
+                // Abre una ventana emergente con el archivo seleccionado.
+                const viewerWindow = window.open('', '_blank', 'width=600,height=400'); // Ajusta el ancho aquí.
+                viewerWindow.document.write(`<embed src="${URL.createObjectURL(cvFile)}" width="100%" height="100%">`);
+                viewerWindow.document.title = 'Hoja de Vida';
+            }
+        });
+    </script>
     </html>
 </body>
